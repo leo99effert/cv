@@ -1,3 +1,2 @@
 Look at my resume:
-
-https://leoeffert.vercel.app/
+https://leo99effert.github.io/cv/

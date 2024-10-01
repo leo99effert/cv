@@ -11,10 +11,32 @@ html, body {
 
 body {
   display: grid;
-  grid-template-rows: 5.5rem auto 5.5rem;
+  grid-template-rows: 7rem auto 7rem;
   grid-template-areas: "header" "main" "footer";
   max-width: 600px;
   margin: auto;
+}
+
+@media (max-width: 350px) {
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+  nav a {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.profile-picture {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
 }
 
 header {
@@ -24,6 +46,7 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 0.5rem 0;
+  flex-wrap: wrap;
 }
 
 header .title {

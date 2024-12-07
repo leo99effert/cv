@@ -17,22 +17,6 @@ body {
   margin: auto;
 }
 
-@media (max-width: 350px) {
-  .title h1 {
-    font-size: 25px;
-  }
-
-  .title h2 {
-    font-size: 20px;
-  }
-
-  nav a {
-    height: 3rem;
-    display: flex;
-    align-items: center;
-  }
-}
-
 .profile-picture {
   height: 250px;
   width: 250px;
@@ -137,4 +121,27 @@ footer {
 .card-role {
   width: 95%;
   text-align: left;
+}
+
+@media (max-width: 350px) {
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+  nav a {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+  }
 }
